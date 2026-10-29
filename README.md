@@ -1,28 +1,17 @@
 # Larsen Lupin — SiLeMI/O
 
-Official downloads of Larsen Lupin, available as a standalone application and as an audio plug-in.
+Larsen Lupin is available as a standalone application and an audio plug-in. The interface is in English and the user guide is in French and English.
 
-| Platform | Available formats |
-| --- | --- |
-| Windows x64 | Standalone application, VST3 |
-| macOS Intel and Apple Silicon | Standalone application, AU (Audio Units), VST3 |
-
-[Windows 2027.4 installer](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/SiLeMIO-Larsen-2027.4-Setup.exe) · [Windows bilingual guide](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/Larsen-Lupin-2027-Manual.pdf)
+[Windows 2027.6 installer](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.6/SiLeMIO-Larsen-2027.6-Setup.exe) · [Windows bilingual guide](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.6/Larsen-Lupin-2027-Manual.pdf)
 
 [macOS 2027.4 universal installer](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/SiLeMIO-Larsen-2027.4-Mac.dmg) · [macOS bilingual guide](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/Larsen-Lupin-2027-Manual-Mac.pdf)
 
-Windows and macOS 2027.4 clarify free activation and optional supporter codes. The application interface is in English; its guide is in French and English. The Mac universal installer includes the standalone application, AU and VST3 for Apple Silicon and Intel, requiring macOS 11 or later.
+Windows x64 includes the standalone application and VST3. The unchanged package for macOS 11 or later includes standalone, AU and VST3 for Intel and Apple Silicon. Mac applications use ad-hoc signatures and are not notarized with a Developer ID.
 
-Free audio starts its first activation automatically when connected to the Internet. If needed, open **Free / Support**, beside the book, and choose **Enable free audio**. Leave the name and code empty: no purchase is required. Once activated, everyday audio use works offline. For the first 30 days, the support reminder can be dismissed immediately; afterwards its launch countdown lasts 5 seconds. It does not interrupt VST3 audio already running.
+New Windows configurations start in **Manual**, with main processing at **70%**, extra Noise reduction **20%**, extra Reverb reduction **10%** and extra Feedback **0%**. Main automatic feedback protection remains active when extra Feedback is zero. Start gently and adjust by ear; use the least correction that works.
 
-The permanent supporter licence is optional, EUR 49, and removes that launch wait. Only enter a supporter name and code if you received one. It covers the standalone application and VST3 on one PC at a time; activation and deactivation require an Internet connection. **Audio is enabled** means this computer is already authorised.
+Existing projects and saved values are preserved. To recall the gentle extras in an existing setup, choose **Auto**, then **Manual**. Amount, timings and permanent cuts stay unchanged; double-click Amount to return it to 70%. The Settings menu provides Copy/Paste and confirmed transfer to other detected instances. Isolated host instances require Copy/Paste.
 
-Windows updates preserve the existing application identity, settings and activation data. Close the application and any host using its VST3 before updating; keep personal backups. The standard edition and Mod are separate products.
+Free audio starts its first activation when connected to the Internet. If needed, open **Free / Support** and choose **Enable free audio**; no purchase or supporter code is required. Once activated, everyday audio use works offline. After the first 30 days, the launch reminder waits five seconds. The optional permanent supporter licence, EUR 49, removes this wait. Keep existing activation data and close the application and any host using the plug-in before updating.
 
-Installers and bilingual French/English user guides are available in the release. The macOS DMG includes a selectable installer. Its applications use ad-hoc signatures and are not notarized with a Developer ID.
-
-Mac qualification is separate from the Windows tests: ten selected native CTests, seven Python diagnostics, synthetic payload probes and installer-selection checks. Two English component captures were reviewed. Intel slices are structurally checked, without physical Intel execution, Logic/AU host acceptance, a real feedback loop or commercial activation. This is not complete human visual acceptance. Historical IndependentEngine and mode failures remain open.
-
-[Product information and downloads](https://silemio.com/logiciels/larsen-lupin)
-
-Larsen Lupin is a young product. Feedback about real audio use and host compatibility is welcome.
+[What's new in Windows 2027.6](RELEASE-2027.6.md) · [File integrity and Windows checks — FR/EN](QUALIFICATION-WINDOWS-2027.6.md) · [Product information and downloads](https://www.silemio.com/logiciels/larsen-lupin)
