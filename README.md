@@ -7,11 +7,11 @@ Official downloads of Larsen Lupin, available as a standalone application and as
 | Windows x64 | Standalone application, VST3 |
 | macOS Intel and Apple Silicon | Standalone application, AU (Audio Units), VST3 |
 
-[Windows 2027.4 installer](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/SiLeMIO-Larsen-2027.4-Setup.exe) · [Windows bilingual guide](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/Larsen-Lupin-2027-Manual.pdf)
+[Windows 2027.5 installer](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.5/SiLeMIO-Larsen-2027.5-Setup.exe) · [Windows bilingual guide](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.5/Larsen-Lupin-2027-Manual.pdf)
 
 [macOS 2027.4 universal installer](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/SiLeMIO-Larsen-2027.4-Mac.dmg) · [macOS bilingual guide](https://github.com/Mamat79/SiLeMIO-Larsen/releases/download/v2027.4/Larsen-Lupin-2027-Manual-Mac.pdf)
 
-Windows and macOS 2027.4 clarify free activation and optional supporter codes. The application interface is in English; its guide is in French and English. The Mac universal installer includes the standalone application, AU and VST3 for Apple Silicon and Intel, requiring macOS 11 or later.
+Windows 2027.5 adds Auto/Manual choices and settings-transfer commands; macOS remains 2027.4. Free activation and optional supporter codes are preserved. The application interface is in English; its guide is in French and English. The Mac universal installer includes the standalone application, AU and VST3 for Apple Silicon and Intel, requiring macOS 11 or later.
 
 Free audio starts its first activation automatically when connected to the Internet. If needed, open **Free / Support**, beside the book, and choose **Enable free audio**. Leave the name and code empty: no purchase is required. Once activated, everyday audio use works offline. For the first 30 days, the support reminder can be dismissed immediately; afterwards its launch countdown lasts 5 seconds. It does not interrupt VST3 audio already running.
 
@@ -26,3 +26,5 @@ Mac qualification is separate from the Windows tests: ten selected native CTests
 [Product information and downloads](https://silemio.com/logiciels/larsen-lupin)
 
 Larsen Lupin is a young product. Feedback about real audio use and host compatibility is welcome.
+
+[Windows 2027.5 release notes](RELEASE-2027.5.md) · [Windows qualification and limits — FR/EN](QUALIFICATION-WINDOWS-2027.5.md).
